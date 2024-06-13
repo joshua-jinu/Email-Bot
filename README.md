@@ -47,8 +47,9 @@ This is a python email bot that sends mails to a list of recipients listed in a 
    - The sheet containing the email addresses should be named `Sheet1`.
    - **Email addresses should be in the first column (A) of the sheet.**
 
-3. (Optional) If you have an attachment, uncomment the relevant lines in the script and set the `filename` variable to the path of your attachment.
-   line 14 and lines 62-75 have to be uncommented and the filename needs to be specified
+3. (Optional) If you have an attachment, uncomment the relevant lines in the script and set the `filename` variable to the relative path of your attachment.
+   
+   line 14 and lines 62-75 have to be uncommented
 
 ## Usage
 
@@ -91,6 +92,7 @@ database_sheet = database["Sheet1"]
 ```python
 fromAddress = ""  # your email address
 passw = ""  # your email app password
+#set smtp server and port accoridng to your email provider
 smtpServer = "smtp.gmail.com"
 port = 587
 ```
