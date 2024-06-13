@@ -13,9 +13,10 @@ database_sheet = database["Sheet1"] #put the name of the sheet with the emails
 # uncomment out next line if an attachments
 # filename = "filename.pdf" #attachment
 
-fromAddress = "" #from address
+fromAddress = "fromAddress@gmail.com" #from address
 toAddress = "receiverAddress@gmail.com"
-passw = ""  #app passkey to the from address
+passw = "yourapppassword"  #app passkey to the from address
+#set smtp server and port accoridng to your email provider
 smtpServer = "smtp.gmail.com"
 port = 587
 notdone = []
