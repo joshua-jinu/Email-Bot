@@ -14,6 +14,7 @@ This is a python email bot that sends mails to a list of recipients listed in a 
 
 - Python 3.x
 - `openpyxl` library
+- app password for your sender email: refer to this article to [this article](https://knowledge.workspace.google.com/kb/how-to-create-app-passwords-000009237) to know how to set up app passwords for your email.
 - An SMTP server (e.g., Gmail SMTP)(as long as you have an email, you'll have an SMTP server) 
 - Note: - `smtplib` and `email` libraries are python standard libeararies need not be installed seperatly
 
@@ -36,8 +37,8 @@ This is a python email bot that sends mails to a list of recipients listed in a 
 
 1. Update the script with your email details:
    
-   - Replace `fromAddress` with your email address.
-   - Replace `passw` with your email app password (for Gmail, you might need to generate an app-specific password).
+   - Update the `fromAddress` with your email address.
+   - Update the `passw` with your email app password (for Gmail, you might need to generate an app-specific password).
    - Update the `toAddress` with the recipient's address (though this will be overridden by the addresses in the Excel file).
 
 2. Prepare your Excel workbook:
