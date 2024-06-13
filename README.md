@@ -90,8 +90,9 @@ database_sheet = database["Sheet1"]
 ### SMTP Server Configuration
 
 ```python
-fromAddress = ""  # your email address
-passw = ""  # your email app password
+toAddress = "receiverAddress@gmail.com" #to address
+fromAddress = "fromAddress@gmail.com" #from address
+passw = "yourapppassword"  #app passkey to the from address
 #set smtp server and port accoridng to your email provider
 smtpServer = "smtp.gmail.com"
 port = 587
