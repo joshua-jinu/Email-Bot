@@ -38,7 +38,7 @@ This is a python email bot that sends mails to a list of recipients listed in a 
 1. Update the script with your email details:
    
    - Update the `fromAddress` with your email address.
-   - Update the `passw` with your email app password (for Gmail, you might need to generate an app-specific password).
+   - Update the `passw` with your email app password (for Gmail, you might need to generate an app-specific password, use [this article](https://knowledge.workspace.google.com/kb/how-to-create-app-passwords-000009237)).
    - Update the `toAddress` with the recipient's address (though this will be overridden by the addresses in the Excel file).
 
 2. Prepare your Excel workbook:
